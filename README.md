@@ -184,15 +184,31 @@ print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w
 
 print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
 ```
-!
+![output](?raw=true)
+```
+mu1 = np.array([0, 0])
 
-)
-## OUTPUT :
-    /**PLOTS of Output in hidden space**/
-    /Classification results
+mu2 = np.array([1, 1])
+
+w = end_to_end(x1, x2, ys, mu1, mu2)
+
+# testing
+
+print(f"Input:{np.array([0, 0])}, Predicted: {predict_matrix(np.array([0, 0]), w)}")
+
+print(f"Input:{np.array([0, 1])}, Predicted: {predict_matrix(np.array([0, 1]), w)}")
+
+print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w)}")
+
+print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
+
+```
+![output](?raw=true)
+
+
 
 ## RESULT:
-
+Thus Implementation of XOR problem using Radial Basis Function executed successfully.
 
 
 
