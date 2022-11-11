@@ -31,8 +31,9 @@ The RBF of hidden neuron as gaussian function
 
 
 ## ALGORIHM:
-
+```
 1.Import the necessary libraries of python.
+
 2.In the end_to_end function, first calculate the similarity between the inputs and the peaks.
 3.Then, to find w used the equation Aw= Y in matrix form.
 4.Each row of A (shape: (4, 2)) consists of
