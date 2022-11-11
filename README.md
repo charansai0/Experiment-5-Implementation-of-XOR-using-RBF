@@ -184,7 +184,7 @@ print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w
 
 print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
 ```
-![output](?raw=true)
+![output](https://github.com/charansai0/Experiment-5-Implementation-of-XOR-using-RBF/blob/main/IMG-20221111-WA0018.jpg?raw=true)
 ```
 mu1 = np.array([0, 0])
 
@@ -203,7 +203,7 @@ print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w
 print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
 
 ```
-![output](?raw=true)
+![output](https://github.com/charansai0/Experiment-5-Implementation-of-XOR-using-RBF/blob/main/IMG-20221111-WA0017.jpg?raw=true)
 
 
 
