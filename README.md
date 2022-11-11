@@ -32,8 +32,9 @@ The RBF of hidden neuron as gaussian function
 
 ## ALGORIHM:
 ```
-1.Import the necessary libraries of python.
 
+
+1.Import the necessary libraries of python.
 2.In the end_to_end function, first calculate the similarity between the inputs and the peaks.
 3.Then, to find w used the equation Aw= Y in matrix form.
 4.Each row of A (shape: (4, 2)) consists of
@@ -49,7 +50,8 @@ The RBF of hidden neuron as gaussian function
 14.To find the weights for the edges to the 1-output unit. Weights associated would be:
 15.edge joining 1st node (peak1 output) to the output node
 16.edge joining 2nd node (peak2 output) to the output node
-PROGRAM:
+```
+
 
 ## PROGRAM:
 
